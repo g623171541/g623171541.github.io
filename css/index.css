@@ -1,0 +1,60 @@
+
+*{
+	padding: 0;
+	margin: 0;
+}
+/* 标题 */
+.title {
+	text-align: center;
+	margin-top: 4rem;
+}
+
+/* 内容 */
+.content{
+	width: 100%;
+	max-width: 64rem;
+	height: 100%;
+	align-content: center;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	top: 8rem;
+	display: block;
+}
+
+/* 每块内容 */
+.block{
+	width: 100%;
+	
+}
+.subtitle{
+	line-height: 2rem;
+	background-color: rgb(230,230,230);
+	font-family:  'Helvetica Neue',Helvetica,Arial,Sans-serif;
+	font-size: 1.25rem;
+	color: rgb(117,20,12);
+}
+.block ul{
+	width: 50%;
+	list-style: none;
+	line-height: 1.5rem;
+	background-color: white;
+}
+
+.list_left{
+	float: left;
+}
+.list_right{
+	float: right;
+}
+#zhize{
+	
+}
+#jineng{
+	list-style: disc;
+	margin-left: 1.5rem;
+	width: 100%;
+}
+.project{
+	
+}
